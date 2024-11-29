@@ -24,7 +24,7 @@ public class HotKeys : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Return))
         {
             Debug.Log("Play Game");
-            SceneManager.LoadScene("Scenes/MainScene");
+            SceneManager.LoadScene("Scenes/1MainScene");
         }
         if (Input.GetKeyDown(KeyCode.Q))
         {
@@ -34,7 +34,7 @@ public class HotKeys : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             Debug.Log("Show Menu");
-            SceneManager.LoadScene("Scenes/MenuScene");
+            SceneManager.LoadScene("Scenes/0MenuScene");
         }
     }
 }
